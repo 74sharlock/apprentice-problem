@@ -33,7 +33,7 @@ body {
   background-color: crimson;
 }
 .list > .item:hover {
-  flex-grow: 2.5;
+  flex-grow: 3;
 }
 .list.bezier-1 .item {
   -webkit-transition-timing-function: cubic-bezier(0.63, -0.1, 0.19, 1.09);
@@ -42,10 +42,16 @@ body {
   -o-transition-timing-function: cubic-bezier(0.63, -0.1, 0.19, 1.09);
   transition-timing-function: cubic-bezier(0.63, -0.1, 0.19, 1.09);
 }
+.list.bezier-1 .item:hover {
+  flex-grow: 4;
+}
 .list.bezier-2 .item {
   -webkit-transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
   -moz-transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
   -ms-transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
   -o-transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
   transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
+}
+.list.bezier-2 .item:hover {
+  flex-grow: 5;
 }
