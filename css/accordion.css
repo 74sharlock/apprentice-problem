@@ -53,5 +53,5 @@ body {
   transition-timing-function: cubic-bezier(0.9, -0.43, 0.14, 1.49);
 }
 .list.bezier-2 .item:hover {
-  flex-grow: 5;
+  flex-grow: 10;
 }
